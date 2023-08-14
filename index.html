@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Site de Vendas</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Produtos</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Ofertas</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="banners banners--container swiper-container">
+        <div class="swiper-wrapper banners__wrapper">
+          <div class="swiper-slide banners__slide"><img src="assets/banner_1.jpg" alt="Banner 1"></div>
+          <div class="swiper-slide banners__slide"><img src="assets/banner_2.jpg" alt="Banner 2"></div>
+          <!-- Adicione mais banners aqui -->
+        </div>
+        <div class="swiper-pagination banners__pagination"></div>
+      </section>
+  
+
+    <section class="products">
+      <div class="products__card">
+        <div class="procuts__card-image-cointainer">
+          <img src="/assets/product_1.png" alt="Product 1" class="products__card-image">
+        </div>
+        <h3 class="products__card-title">Molho de Maçã</h3>
+        <p class="products__card-description">Sed eu dapibus enim, sit amet molestie nisi. Aliquam enim felis, efficitur sed dolor a, faucibus pharetra ex.</p>
+        <span class="products__card-price">$19.99</span>
+      </div>
+      <div class="products__card">
+        <div class="procuts__card-image-cointainer">
+          <img src="/assets/product_2.png" alt="Product 2" class="products__card-image">
+        </div>
+        <h3 class="products__card-title">Gel para Mãos</h3>
+        <p class="products__card-description">Etiam sed dapibus est.</p>
+        <span class="products__card-price">$24.99</span>
+      </div>
+      <div class="products__card">
+        <div class="procuts__card-image-cointainer">
+          <img src="/assets/product_3.png" alt="Product 3" class="products__card-image">
+        </div>
+        <h3 class="products__card-title">Controle</h3>
+        <p class="products__card-description">Integer vitae ipsum a turpis fermentum eleifend. Cras accumsan ligula arcu, id porttitor eros auctor ac</p>
+        <span class="products__card-price">$24.99</span>
+      </div>
+      <div class="products__card">
+        <div class="procuts__card-image-cointainer">
+          <img src="/assets/product_4.png" alt="Product 4" class="products__card-image">
+        </div>
+        <h3 class="products__card-title">Produto de Limpeza</h3>
+        <p class="products__card-description">Etiam vehicula augue tellus, eget sodales quam bibendum at. Aliquam sit amet varius augue, porttitor posuere urna</p>
+        <span class="products__card-price">$24.99</span>
+      </div>
+      <!-- Adicione mais cards de produtos aqui -->
+    </section>
+
+    <section class="offers">
+      <div class="offers__card">
+        <img src="/assets/offers_1.png" alt="Offer 1" class="offers__card-image">
+        <h3 class="offers__card-title">Pneu</h3>
+        <p class="offers__card-description">Descrição detalhada da Oferta 1</p>
+        <span class="offers__card-price">$49.99</span>
+      </div>
+      <div class="offers__card">
+        <img src="/assets/offers_2.png" alt="Offer 2" class="offers__card-image">
+        <h3 class="offers__card-title">Abajur</h3>
+        <p class="offers__card-description">Descrição detalhada da Oferta 2</p>
+        <span class="offers__card-price">$59.99</span>
+      </div>
+      <!-- Adicione mais cards de ofertas aqui -->
+    </section>
+
+    <section class="reviews">
+      <div class="reviews__title">
+        Opiniões dos Clientes
+      </div>
+      <div class="reviews__list">
+        <div class="reviews__item">
+          <div class="reviews__item-avatar slow-load" data-src="./assets/review_1.png"></div>
+          <p class="reviews__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec commodo odio.</p>
+          <div class="reviews__item-author">John Doe</div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__item-avatar slow-load" data-src="./assets/review_2.png"></div>
+          <p class="reviews__item-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          <div class="reviews__item-author">Jane Smith</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo">Logo</div>
+    <ul class="footer__nav">
+      <li class="footer__nav-item"><a href="#" class="footer__nav-link">Termos de Uso</a></li>
+      <li class="footer__nav-item"><a href="#" class="footer__nav-link">Política de Privacidade</a></li>
+      <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contato</a></li>
+    </ul>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

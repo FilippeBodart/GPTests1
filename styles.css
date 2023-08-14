@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500&family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import url('style/header.css');
+@import url('style/banner.css');
+@import url('style/products.css');
+@import url('style/offers.css');
+@import url('style/reviews.css');
+@import url('style/footer.css');
+
+  
+.main {
+    background-color: #f5f5f5;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+  
+  .slow-load {
+    opacity: 0;
+  }
+  
+ 
