@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +20,11 @@
 <p>Meu site de currículo possui várias seções que oferecem informações detalhadas sobre minha jornada profissional e habilidades. Algumas das características notáveis do site incluem:</p>
 
 <ul>
-  <li><strong>Header:</strong> Uma visão geral rápida sobre quem sou e o que faço.</li>
-  <li><strong>Banners:</strong> Banners com funcionalidade de <strong>SWIPE</strong>, utilizando o Swiper. .</li>
-  <li><strong>Produtos e Ofertas:</strong>.</li>
-  <li><strong>Projetos:</strong> Destaque para alguns dos projetos significativos em que trabalhei, com descrições e links para mais informações.</li>
-  <li><strong>Habilidades:</strong> Uma lista das minhas habilidades técnicas e soft skills relevantes para o meu campo.</li>
-  <li><strong>Contato:</strong> Formulário de contato para facilitar a comunicação direta comigo.</li>
+  <li><strong>Header:</strong> Um header bem simples com um hover também simples.</li>
+  <li><strong>Banners:</strong> Banners com funcionalidade de <strong>SWIPE</strong>, utilizando o Swiper.</li>
+  <li><strong>Produtos e Ofertas: Alguns cards de exemplos de produtos estáticos com um pequeno efeito de hover.</strong></li>
+  <li><strong>Reviews:</strong> Uma sessão simples com um template da opinião de dois usuários.</li>
+  <li><strong>Habilidades:</strong> Um exemplo de footer também bem simples.</li>
 </ul>
 
 <h2>Tecnologias Utilizadas 👨‍💻</h2>
@@ -42,7 +41,7 @@
 
 <h2>Contato 📬</h2>
 
-<p>Se você tiver alguma dúvida, sugestão ou apenas quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem por meio do formulário de contato no próprio site ou pelo meu endereço de e-mail: <a href="mailto:filippekb@gmail.com">seuemail@example.com</a>.</p>
+<p>Se você tiver alguma dúvida, sugestão ou apenas quiser entrar em contato, sinta-se à vontade para me enviar uma mensagem pelo meu endereço de e-mail: <a href="mailto:filippekb@gmail.com">seuemail@example.com</a>.</p>
 
 <p>Obrigado por visitar meu repositório e conferir meu site de vendas!</p>
 
