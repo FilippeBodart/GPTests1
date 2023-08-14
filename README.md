@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Site de Currículo</title>
 </head>
 <body>
 
@@ -23,7 +22,7 @@
   <li><strong>Header:</strong> Um header bem simples com um hover também simples.</li>
   <li><strong>Banners:</strong> Banners com funcionalidade de <strong>SWIPE</strong>, utilizando o Swiper.</li>
   <li><strong>Produtos e Ofertas: Alguns cards de exemplos de produtos estáticos com um pequeno efeito de hover.</strong></li>
-  <li><strong>Reviews:</strong> Uma sessão simples com um template da opinião de dois usuários.</li>
+  <li><strong>Reviews:Uma sessão simples com um template da opinião de dois usuários.</strong> </li>
   <li><strong>Habilidades:</strong> Um exemplo de footer também bem simples.</li>
 </ul>
 
