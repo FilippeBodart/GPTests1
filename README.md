@@ -12,7 +12,7 @@
 
 <h2>Acesso ao Site 🌐</h2>
 
-<p>Você pode acessar o site de currículo através do seguinte link: <a href="https://seusite.com](https://filippebodart.github.io/GPTests1">Meu Site de Vendas Utilizando CHATGPT</a></p>
+<p>Você pode acessar o site de currículo através do seguinte link: <a href="https://filippebodart.github.io/GPTests1">Meu Site de Vendas Utilizando CHATGPT</a></p>
 
 <h2>Recursos e Funcionalidades ✨</h2>
 
